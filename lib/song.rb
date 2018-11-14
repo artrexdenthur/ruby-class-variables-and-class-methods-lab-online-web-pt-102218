@@ -1,6 +1,18 @@
 class Song
-  def self.count()
   
+  attr_accessor :name, :artist, :genre
+  
+  
+  def initialize(name, artist, genre)
+    @name = name
+    @artist = artist
+    @genre = genre
+    @@song_arr ||= []
+    @@song_arr.push { :name
+  end
+  
+  def self.count()
+    
   end
   
   def self.artists()
