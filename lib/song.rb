@@ -8,7 +8,7 @@ class Song
     @artist = artist
     @genre = genre
     @@song_arr ||= []
-    @@song_arr.push { :name
+    @@song_arr.push { :name => 
   end
   
   def self.count()
